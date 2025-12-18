@@ -1,4 +1,4 @@
-import { Student } from "../models/Student" 
+import type { Student } from "../models/Student" 
 
 interface Props{
     students: Student[];

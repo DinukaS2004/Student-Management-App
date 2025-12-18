@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Student } from "../models/Student";
+import type { Student } from "../models/Student";
 
 interface Props{
     onAddStudent: (student: Student) => void;

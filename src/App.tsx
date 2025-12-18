@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Student } from './models/Student'  
+import type{ Student } from './models/Student'  
 import StudentForm from './components/StudentForm'
 import StudentList from './components/StudentList'
 
